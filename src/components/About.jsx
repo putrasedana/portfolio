@@ -7,11 +7,11 @@ const About = () => {
         <div className="text-lg text-center text-gray-300 xl:text-left">
           <p className="mb-6">
             Hi, My name is I Made Putra Sedana, a passionate and dedicated beginner web developer based in Bali. My journey in web development started with my curiosity and a desire to create things on the internet. I&apos;ve been learning
-            through various online resources, including YouTube tutorials and the Dicoding website.
+            through various online resources, including YouTube tutorials and Dicoding website.
           </p>
           <p className="mb-6">
-            I am currently studying at Primakara University, majoring in Information System, and I am currently in my fourth semester. During my studies, I&apos;ve taken courses in essential programming topics like Data Structures and
-            Algorithms, Object-Oriented Programming and Basic Database.
+            I studied at Primakara University, majoring in Information System, and I am currently in my fourth semester. During my studies, I&apos;ve taken courses in essential programming topics like Data Structures and Algorithms,
+            Object-Oriented Programming and Basic Database.
           </p>
           <p>Feel free to explore my portfolio and reach out if you&apos;d like to connect or collaborate on a project!</p>
         </div>

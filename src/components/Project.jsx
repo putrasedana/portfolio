@@ -7,7 +7,7 @@ const Project = ({ project }) => {
         <p className="text-gray-300">{project.desc}</p>
         <div className="flex space-x-4 justify-center py-5">
           {project.images.map((image, index) => (
-            <img key={index} className="w-6" src={image} alt="HTML" />
+            <img key={index} className="w-8" src={image} alt="HTML" />
           ))}
         </div>
         <div className="flex space-x-8 justify-center">

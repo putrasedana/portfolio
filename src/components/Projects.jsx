@@ -2,9 +2,8 @@ import Project from "./Project";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import projects from "../utils/projects";
 
-const Projects = () => {
+const Projects = ({ projects, title }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -16,9 +15,8 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="bg-slate-950 mt-20 pt-12">
-      <h2 className="text-3xl font-bold mb-10 text-center text-green-500">Projects</h2>
-      <h3 className="text-white text-2xl ml-4 mb-4 font-semibold md:ml-16 xl:ml-[11.8rem]">Front-End Website</h3>
+    <section id="projects" className="bg-slate-950 mt-14">
+      <h3 className="text-white text-2xl ml-4 mb-4 font-semibold md:ml-16 xl:ml-[11.8rem]">{title}</h3>
       <Slider {...settings} className="md:px-16">
         {projects.map((project, index) => (
           <Project key={index} project={project} />
