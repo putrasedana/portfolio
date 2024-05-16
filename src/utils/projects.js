@@ -20,6 +20,13 @@ const projects = [
     images: ["react.png", "css.png"],
     links: ["https://github.com/putrasedana/personal-notes", "https://personal-notes01.netlify.app"],
   },
+  {
+    image: "project5.png",
+    title: "Food Delivery",
+    desc: "The React-powered web application, this project also using React Hook and React Router",
+    images: ["react.png", "css.png"],
+    links: ["https://github.com/putrasedana/food-delivery", "https://food-delivery0011.netlify.app"],
+  },
 ];
 
 export default projects;
