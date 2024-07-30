@@ -27,6 +27,13 @@ const projects = [
     images: ["react.png", "css.png"],
     links: ["https://github.com/putrasedana/food-delivery", "https://food-delivery0011.netlify.app"],
   },
+  {
+    image: "project6.png",
+    title: "Notes App",
+    desc: "This is a native JavaScript project that utilizes Web Components, Webpack, and leverages a REST API for data handling.",
+    images: ["html.png", "css.png", "javascript.png"],
+    links: ["https://github.com/putrasedana/notes-app", "https://notes-app001.netlify.app"],
+  },
 ];
 
 export default projects;
