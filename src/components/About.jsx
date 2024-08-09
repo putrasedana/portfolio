@@ -10,7 +10,7 @@ const About = () => {
             through various online resources, including YouTube tutorials and Dicoding website.
           </p>
           <p className="mb-6">
-            I studied at Primakara University, majoring in Information System, and I am currently in my fourth semester. During my studies, I&apos;ve taken courses in essential programming topics like Data Structures and Algorithms,
+            I am studying at Primakara University, majoring in Information System, and I am currently in my fifth semester. During my studies, I&apos;ve taken courses in essential programming topics like Data Structures and Algorithms,
             Object-Oriented Programming and Basic Database.
           </p>
           <p>Feel free to explore my portfolio and reach out if you&apos;d like to connect or collaborate on a project!</p>

@@ -4,7 +4,7 @@ const Showcase = () => {
       <img src="/foto-portfolio.jpeg" alt="Profile Image" className="w-[23rem] rounded-full border-4 mb-10 border-slate-950" />
       <div className="xl:px-6">
         <h1 className="text-4xl font-semibold mb-4">
-          Hi! I Am Putra Sedana, Beginner <br /> <span className="text-green-500">Web Developer</span> Based <br /> in Bali
+          Hi! I&apos;m Putra Sedana, Beginner <br /> <span className="text-green-500">Web Developer</span> Based <br /> in Bali
         </h1>
         <p className="text-lg text-gray-300 mb-4">
           As a passionate and driven beginner web developer, I am seeking an internship opportunity to apply and enhance my skills in a real-world setting. Through hands-on experience, I aim to contribute to meaningful projects while
