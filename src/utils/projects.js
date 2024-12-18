@@ -50,7 +50,7 @@ const projects = [
     images: ["react.png", "css.png"],
     links: [
       "https://github.com/putrasedana/task-management-app",
-      "https://task-management-app-virid.vercel.app/",
+      "https://task-management-app0011.netlify.app/",
     ],
     stack: "Front-End",
   },
