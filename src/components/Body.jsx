@@ -2,26 +2,31 @@ import About from "./About";
 import Projects from "./Projects";
 import Showcase from "./Showcase";
 import projects from "../utils/projects";
+import Skills from "./Skills";
 
 const Body = () => {
-  const frontEndProjects = projects.filter(
-    (project) => project.stack === "Front-End"
+  const frontendProjects = projects.filter(
+    (project) => project.stack === "Front-end"
   );
 
-  const backEndProjects = projects.filter(
-    (project) => project.stack === "Back-End"
+  const backendProjects = projects.filter(
+    (project) => project.stack === "Back-end"
   );
 
   return (
     <main>
       <Showcase />
       <About />
+      <Skills />
       <>
-        <h2 className="text-3xl font-bold text-center text-green-500 mt-28">
+        <h2
+          id="projects"
+          className="text-3xl font-bold text-center text-green-500 mt-10 pt-16"
+        >
           Projects
         </h2>
-        <Projects projects={frontEndProjects} title="Front-End" />
-        <Projects projects={backEndProjects} title="Back-End" />
+        <Projects projects={frontendProjects} title="Front-end" />
+        <Projects projects={backendProjects} title="Back-end" />
       </>
     </main>
   );

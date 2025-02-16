@@ -8,7 +8,7 @@ const projects = [
       "https://github.com/putrasedana/nice-restaurant",
       "https://nice-restaurant.netlify.app",
     ],
-    stack: "Front-End",
+    stack: "Front-end",
   },
   {
     image: "bookself-app.png",
@@ -19,7 +19,7 @@ const projects = [
       "https://github.com/putrasedana/bookshelf-app",
       "https://bookshelf-app01.netlify.app",
     ],
-    stack: "Front-End",
+    stack: "Front-end",
   },
   {
     image: "personal-notes.png",
@@ -30,7 +30,7 @@ const projects = [
       "https://github.com/putrasedana/personal-notes",
       "https://personal-notes01.netlify.app",
     ],
-    stack: "Front-End",
+    stack: "Front-end",
   },
   {
     image: "notes-app.png",
@@ -41,7 +41,7 @@ const projects = [
       "https://github.com/putrasedana/notes-app",
       "https://notes-app001.netlify.app",
     ],
-    stack: "Front-End",
+    stack: "Front-end",
   },
   {
     image: "task-management-app.png",
@@ -52,7 +52,7 @@ const projects = [
       "https://github.com/putrasedana/task-management-app",
       "https://task-management-app0011.netlify.app/",
     ],
-    stack: "Front-End",
+    stack: "Front-end",
   },
   {
     image: "task-management-api.png",
@@ -63,7 +63,7 @@ const projects = [
       "https://github.com/putrasedana/task-management-api",
       "https://task-management-api-production-288a.up.railway.app/",
     ],
-    stack: "Back-End",
+    stack: "Back-end",
   },
   {
     image: "task-management-api.png",
@@ -74,7 +74,7 @@ const projects = [
       "https://github.com/putrasedana/task-management-api",
       "https://task-management-api-production-288a.up.railway.app/",
     ],
-    stack: "Back-End",
+    stack: "Back-end",
   },
 ];
 

@@ -24,7 +24,7 @@ const Project = ({ project }) => {
             <img className="w-6 ml-1" src="github.png" alt="Github" />
           </a>
           <a href={project.links[1]} target="_blank" className=" text-white">
-            Live Demo{" "}
+            Live Preview{" "}
             <i className="fas fa-arrow-right transform -rotate-45 text-green-500"></i>
           </a>
         </div>

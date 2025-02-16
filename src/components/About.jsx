@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="pt-16 bg-slate-950 px-6 md:px-20">
+    <section id="about" className="pt-16 pb-28 bg-slate-950 px-6 md:px-20">
       <h2 className="text-3xl font-bold text-center mb-14 text-green-500">
         About Me
       </h2>
@@ -25,16 +25,13 @@ const About = () => {
             Structures and Algorithms, Object-Oriented Programming and Basic
             Database.
           </p>
-          <p className="mb-6">
+          <p>
             My interest in becoming a developer is also driven by the
             transformative potential of AI, which makes programming easier and
             more efficient. The integration of AI in development fascinates me,
             and I am eager to explore its role in shaping the future of
-            technology.
-          </p>
-          <p>
-            Feel free to explore my portfolio and reach out if you&apos;d like
-            to connect or collaborate on a project!
+            technology. Feel free to explore my portfolio and reach out if
+            you&apos;d like to connect or collaborate on a project!
           </p>
         </div>
       </div>
