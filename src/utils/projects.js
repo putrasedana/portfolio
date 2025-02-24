@@ -1,49 +1,5 @@
 const projects = [
   {
-    image: "nice-restaurant.png",
-    title: "Nice Restaurant",
-    desc: "A restaurant website I created using HTML, CSS, and JavaScript. This website provides users with information about the restaurant.",
-    images: ["html.png", "css.png", "javascript.png"],
-    links: [
-      "https://github.com/putrasedana/nice-restaurant",
-      "https://nice-restaurant.netlify.app",
-    ],
-    stack: "Front-end",
-  },
-  {
-    image: "bookself-app.png",
-    title: "Bookself App",
-    desc: "A Bookself App I created using HTML, CSS, and JavaScript. This web application allows users to input book data into shelves, move book between shelves, delete book from shelves, and edit books.",
-    images: ["html.png", "css.png", "javascript.png"],
-    links: [
-      "https://github.com/putrasedana/bookshelf-app",
-      "https://bookshelf-app01.netlify.app",
-    ],
-    stack: "Front-end",
-  },
-  {
-    image: "personal-notes.png",
-    title: "Personal Notes",
-    desc: "The React-powered web application serves as a tool for managing personal notes effectively. It fulfills the core requirements of a 'Personal Notes App' by enabling users to view, add, delete and edit notes seamlessly.",
-    images: ["react.png", "css.png"],
-    links: [
-      "https://github.com/putrasedana/personal-notes",
-      "https://personal-notes01.netlify.app",
-    ],
-    stack: "Front-end",
-  },
-  {
-    image: "notes-app.png",
-    title: "Notes App",
-    desc: "This is a native JavaScript project that utilizes Web Components, Webpack, and leverages a REST API for data handling.",
-    images: ["html.png", "css.png", "javascript.png"],
-    links: [
-      "https://github.com/putrasedana/notes-app",
-      "https://notes-app001.netlify.app",
-    ],
-    stack: "Front-end",
-  },
-  {
     image: "task-management-app.png",
     title: "Task Management App",
     desc: "This React-powered web application is a Single Page Application (SPA) that leverages APIs, Context, and Hooks. It includes user authentication features, such as registration and login pages.",
@@ -51,6 +7,22 @@ const projects = [
     links: [
       "https://github.com/putrasedana/task-management-app",
       "https://task-management-app0011.netlify.app/",
+    ],
+    stack: "Front-end",
+  },
+  {
+    image: "story-app.png",
+    title: "Story App",
+    desc: "This web application is built with HTML, SCSS, and Bootstrap for a responsive and modern UI. It leverages JavaScript to handle dynamic interactions and integrates REST APIs for data fetching and communication.",
+    images: [
+      "html.png",
+      "https://sass-lang.com/assets/img/styleguide/color.png",
+      "https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg",
+      "javascript.png",
+    ],
+    links: [
+      "https://github.com/putrasedana/story-app",
+      "https://story-app-646f3.firebaseapp.com/",
     ],
     stack: "Front-end",
   },

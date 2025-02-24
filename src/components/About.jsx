@@ -20,7 +20,7 @@ const About = () => {
           </p>
           <p className="mb-6">
             I am studying at Primakara University, majoring in Information
-            System, and I am currently in my fifth semester. During my studies,
+            System, and I am currently in my sixth semester. During my studies,
             I&apos;ve taken courses in essential programming topics like Data
             Structures and Algorithms, Object-Oriented Programming and Basic
             Database.
