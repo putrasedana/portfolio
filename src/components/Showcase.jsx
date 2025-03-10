@@ -11,22 +11,21 @@ const Showcase = () => {
         alt="Profile Image"
         className="w-[23rem] rounded-full border-4 mb-10 border-slate-950"
       />
-      <div className="xl:px-6">
+      <div className="xl:px-6 xl:pr-16">
         <h1 className="text-4xl font-semibold mb-4">
-          Hi! I&apos;m Putra Sedana, Beginner <br />{" "}
-          <span className="text-green-500">Web Developer</span> Based <br /> in
+          Hi! I&apos;m Putra Sedana,
+          <span className="text-green-500"> Web Developer</span> <br /> Based in
           Bali
         </h1>
-        <p className="text-lg text-gray-300 mb-4">
-          As a passionate and driven beginner web developer, I am seeking an
-          internship opportunity to apply and enhance my skills in a real-world
-          setting. Through hands-on experience, I aim to contribute to
-          meaningful projects while continuing to learn and grow in the field of
-          web development.
+        <p className="text-lg text-gray-300 mb-4 text-justify">
+          As a passionate and driven web developer, I am seeking an opportunity
+          to apply and enhance my skills in a real-world setting. Through
+          hands-on experience, I aim to contribute to meaningful projects while
+          continuing to learn and grow in the field of web development.
         </p>
         <div className="flex items-center justify-center mt-6 xl:justify-start">
           <a
-            href="https://drive.google.com/file/d/10PYODCxZHAUrzN6xqsR85sBQZNhbl8_K/view?usp=sharing"
+            href="https://drive.google.com/file/d/10jJctTMK-IUKbP7mO3dndUzGj5fIV08H/view?usp=sharing"
             target="_blank"
             className="font-semibold flex items-center border-2 border-green-600 bg-green-600 rounded-sm 
             py-2 px-3 mr-6 hover:border-green-600 hover:border-2 hover:bg-transparent ease-out duration-300"

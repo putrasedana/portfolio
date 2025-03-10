@@ -8,7 +8,7 @@ const Project = ({ project }) => {
       />
       <div className="text-center p-6 space-y-4">
         <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
-        <p className="text-gray-300">{project.desc}</p>
+        <p className="text-gray-300 xl:pl-6 text-justify">{project.desc}</p>
         <div className="flex space-x-4 justify-center py-5">
           {project.images.map((image, index) => (
             <img key={index} className="w-8 h-2w-8" src={image} alt="HTML" />

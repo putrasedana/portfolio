@@ -1,19 +1,20 @@
 const projects = [
   {
-    image: "task-management-app.png",
-    title: "Task Management App",
-    desc: "This React-powered web application is a Single Page Application (SPA) that leverages APIs, Context, and Hooks. It includes user authentication features, such as registration and login pages.",
-    images: ["react.png", "css.png"],
+    image: "nice-restaurant.png",
+    title: "Nice Restaurant",
+    desc: "This static website is built using HTML, CSS, and JavaScript, featuring a responsive design and interactive elements. It utilizes modern CSS techniques for styling and JavaScript for dynamic behavior, ensuring an engaging user experience.",
+    images: ["html.png", "css.png", "javascript.png"],
     links: [
-      "https://github.com/putrasedana/task-management-app",
-      "https://task-management-app0011.netlify.app/",
+      "https://github.com/putrasedana/nice-restaurant",
+      "https://nice-restaurant.netlify.app/",
     ],
     stack: "Front-end",
   },
+
   {
     image: "story-app.png",
     title: "Story App",
-    desc: "This web application is built with HTML, SCSS, and Bootstrap for a responsive and modern UI. It leverages JavaScript to handle dynamic interactions and integrates REST APIs for data fetching and communication.",
+    desc: "This web application is built with HTML, SCSS, and Bootstrap for a responsive and modern UI. It leverages JavaScript to handle dynamic interactions and integrates REST APIs for data fetching.",
     images: [
       "html.png",
       "https://sass-lang.com/assets/img/styleguide/color.png",
@@ -26,6 +27,43 @@ const projects = [
     ],
     stack: "Front-end",
   },
+
+  {
+    image: "personal-notes.png",
+    title: "Personal Notes App",
+    desc: "This Personal Notes App is built with React.js, utilizing component-based architecture for modularity and reusability. It features dynamic state management with hooks and a responsive design styled with CSS, ensuring a smooth user experience.",
+    images: ["react.png", "css.png"],
+    links: [
+      "https://github.com/putrasedana/personal-notes",
+      "https://personal-notes01.netlify.app/",
+    ],
+    stack: "Front-end",
+  },
+
+  {
+    image: "task-management-app.png",
+    title: "Task Management App",
+    desc: "This React-powered web application is a Single Page Application (SPA) that leverages APIs, Context, and Hooks. It includes user authentication features, such as registration and login pages.",
+    images: ["react.png", "css.png"],
+    links: [
+      "https://github.com/putrasedana/task-management-app",
+      "https://task-management-app0011.netlify.app/",
+    ],
+    stack: "Front-end",
+  },
+
+  {
+    image: "cnc-news.png",
+    title: "CNC News",
+    desc: `This is a React-based news application that fetches and displays news from various categories using the News API. It features search functionality, allowing users to find articles and navigate results with pagination. The app uses Redux for state management and createAsyncThunk to handle API requests efficiently.   ⚠ Note: Sometimes, the website may encounter errors due to News API rate limits.`,
+    images: ["react.png", "tailwind.png"],
+    links: [
+      "https://github.com/putrasedana/cnc-news",
+      "https://cnc-news.netlify.app/",
+    ],
+    stack: "Front-end",
+  },
+
   {
     image: "task-management-api.png",
     title: "Task Management API",
@@ -37,6 +75,7 @@ const projects = [
     ],
     stack: "Back-end",
   },
+
   {
     image: "task-management-api.png",
     title: "Task Management API",
