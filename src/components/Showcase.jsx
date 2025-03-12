@@ -25,7 +25,7 @@ const Showcase = () => {
         </p>
         <div className="flex items-center justify-center mt-6 xl:justify-start">
           <a
-            href="https://drive.google.com/file/d/10jJctTMK-IUKbP7mO3dndUzGj5fIV08H/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Y_DJZnbCCs2md5oLSnAx3Rdo3nt3Y-Qc/view?usp=sharing"
             target="_blank"
             className="font-semibold flex items-center border-2 border-green-600 bg-green-600 rounded-sm 
             py-2 px-3 mr-6 hover:border-green-600 hover:border-2 hover:bg-transparent ease-out duration-300"
