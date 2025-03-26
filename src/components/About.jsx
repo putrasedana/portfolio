@@ -11,27 +11,30 @@ const About = () => {
           alt="About Image"
         />
         <div className="text-lg text-center xl:w-[60%] text-gray-300 xl:text-left">
-          <p className="mb-6 text-justify">
-            My name is I Made Putra Sedana, a passionate and dedicated web
-            developer based in Bali. My journey in web development started with
-            my curiosity and a desire to create things on the internet.
-            I&apos;ve been learning through various online resources, including
-            YouTube tutorials and Dicoding website.
+          <p className="mb-4 text-justify">
+            Hi! My name is I Made Putra Sedana, and I&apos;m a passionate web
+            developer based in Bali. My journey into web development began with
+            curiosity and a strong desire to create and build things for the
+            web. I&apos;ve been learning through various online platforms,
+            including YouTube tutorials, documentation, FreeCodeCamp, and
+            Dicoding Academy.
           </p>
-          <p className="mb-6 text-justify">
-            I am studying at Primakara University, majoring in Information
-            System, and I am currently in my sixth semester. During my studies,
-            I&apos;ve taken courses in essential programming topics like Data
-            Structures and Algorithms, Object-Oriented Programming and Basic
-            Database.
+          <p className="mb-4 text-justify">
+            Currently, I&apos;m a sixth-semester student at Primakara
+            University, majoring in Information Systems. Throughout my studies,
+            I&apos;ve gained a solid foundation in programming, covering topics
+            such as Data Structures & Algorithms, Object-Oriented Programming,
+            and Database Fundamentals.
+          </p>
+          <p className=" mb-4 text-justify">
+            Beyond web development, I&apos;m also fascinated by how AI can
+            enhance programming, making it more efficient and innovative.
+            I&apos;m excited to explore how AI tools can streamline development
+            and shape the future of technology.
           </p>
           <p className="text-justify">
-            My interest in becoming a developer is also driven by the
-            transformative potential of AI, which makes programming easier and
-            more efficient. The integration of AI in development fascinates me,
-            and I am eager to explore its role in shaping the future of
-            technology. Feel free to explore my portfolio and reach out if
-            you&apos;d like to connect or collaborate on a project!
+            Feel free to check out my portfolio and connect with me—I&apos;d
+            love to collaborate on exciting projects!
           </p>
         </div>
       </div>

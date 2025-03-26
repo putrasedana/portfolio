@@ -18,14 +18,15 @@ const Showcase = () => {
           Bali
         </h1>
         <p className="text-lg text-gray-300 mb-4 text-justify">
-          As a passionate and driven web developer, I am seeking an opportunity
-          to apply and enhance my skills in a real-world setting. Through
-          hands-on experience, I aim to contribute to meaningful projects while
-          continuing to learn and grow in the field of web development.
+          I am a passionate web developer looking for opportunities to apply my
+          skills in real-world projects. I enjoy learning new technologies and
+          improving my abilities while contributing to meaningful work. My goal
+          is to grow as a developer and make a positive impact through my
+          projects.
         </p>
         <div className="flex items-center justify-center mt-6 xl:justify-start">
           <a
-            href="https://drive.google.com/file/d/1Y_DJZnbCCs2md5oLSnAx3Rdo3nt3Y-Qc/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JhXhtqQTCfGP_Y7Eu7qQPD2IC1O69itH/view?usp=sharing"
             target="_blank"
             className="font-semibold flex items-center border-2 border-green-600 bg-green-600 rounded-sm 
             py-2 px-3 mr-6 hover:border-green-600 hover:border-2 hover:bg-transparent ease-out duration-300"

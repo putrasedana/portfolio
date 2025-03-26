@@ -47,22 +47,22 @@ const projects = [
     images: ["react.png", "css.png"],
     links: [
       "https://github.com/putrasedana/task-management-app",
-      "https://task-management-app0011.netlify.app/",
+      "http://54.169.152.205:3000/",
     ],
     stack: "Front-end",
   },
 
-  {
-    image: "cnc-news.png",
-    title: "CNC News",
-    desc: `This is a React-based news application that fetches and displays news from various categories using the News API. It features search functionality, allowing users to find articles and navigate results with pagination. The app uses Redux for state management and createAsyncThunk to handle API requests efficiently.   ⚠ Note: Sometimes, the website may encounter errors due to News API rate limits.`,
-    images: ["react.png", "tailwind.png"],
-    links: [
-      "https://github.com/putrasedana/cnc-news",
-      "https://cnc-news.netlify.app/",
-    ],
-    stack: "Front-end",
-  },
+  // {
+  //   image: "cnc-news.png",
+  //   title: "CNC News",
+  //   desc: `This is a React-based news application that fetches and displays news from various categories using the News API. It features search functionality, allowing users to find articles and navigate results with pagination. The app uses Redux for state management and createAsyncThunk to handle API requests efficiently.   ⚠ Note: Sometimes, the website may encounter errors due to News API rate limits.`,
+  //   images: ["react.png", "tailwind.png"],
+  //   links: [
+  //     "https://github.com/putrasedana/cnc-news",
+  //     "https://cnc-news.netlify.app/",
+  //   ],
+  //   stack: "Front-end",
+  // },
 
   {
     image: "task-management-api.png",
@@ -71,7 +71,7 @@ const projects = [
     images: ["nodejs.png", "express-js.png", "mongodb.png"],
     links: [
       "https://github.com/putrasedana/task-management-api",
-      "https://task-management-api-production-288a.up.railway.app/",
+      "http://54.169.152.205:5000/",
     ],
     stack: "Back-end",
   },
@@ -83,7 +83,7 @@ const projects = [
     images: ["nodejs.png", "express-js.png", "mongodb.png"],
     links: [
       "https://github.com/putrasedana/task-management-api",
-      "https://task-management-api-production-288a.up.railway.app/",
+      "http://54.169.152.205:5000/",
     ],
     stack: "Back-end",
   },
