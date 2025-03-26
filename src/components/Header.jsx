@@ -10,6 +10,7 @@ const Header = () => {
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
         setIsVisible(false);
+        setMenuOpen(false);
       } else {
         setIsVisible(true);
       }
@@ -36,7 +37,7 @@ const Header = () => {
             onClick={() => setMenuOpen(false)}
             className="text-white sm:hidden"
           >
-            <i className="fas fa-times"></i>
+            <i className="fas fa-times text-2xl"></i>
           </button>
         )}
         {/* Menu button */}
@@ -52,12 +53,13 @@ const Header = () => {
         <ul
           className={`${
             menuOpen
-              ? "flex flex-col absolute top-28 right-6 rounded-lg w-1/2 h-2/6 pb-4 items-center bg-slate-950 sm:flex-row"
+              ? "flex flex-col absolute top-20 right-6 rounded-lg w-52 h-80 pb-4 items-center bg-slate-950 sm:flex-row"
               : "hidden sm:flex"
           } justify-around sm:justify-start sm:space-x-10 sm:bg-slate-950 xl:mx-0`}
         >
           <li>
             <a
+              onClick={() => setMenuOpen(false)}
               className="font-semibold hover:text-green-500 ease-out duration-300"
               href="#"
             >
@@ -66,6 +68,7 @@ const Header = () => {
           </li>
           <li>
             <a
+              onClick={() => setMenuOpen(false)}
               className="font-semibold hover:text-green-500 ease-out duration-300"
               href="#about"
             >
@@ -74,6 +77,7 @@ const Header = () => {
           </li>
           <li>
             <a
+              onClick={() => setMenuOpen(false)}
               className="font-semibold hover:text-green-500 ease-out duration-300"
               href="#skills"
             >
@@ -82,6 +86,7 @@ const Header = () => {
           </li>
           <li>
             <a
+              onClick={() => setMenuOpen(false)}
               className="font-semibold hover:text-green-500 ease-out duration-300"
               href="#projects"
             >
@@ -90,6 +95,7 @@ const Header = () => {
           </li>
           <li>
             <a
+              onClick={() => setMenuOpen(false)}
               href="mailto:putrasedana03@gmail.com"
               className="font-semibold border-2 border-green-600 bg-green-600 rounded-sm p-2 sm:mt-0 hover:border-green-600 hover:border-2 hover:bg-transparent ease-out duration-300"
             >
