@@ -11,7 +11,12 @@ const Project = ({ project }) => {
         <p className="text-gray-300 xl:pl-6 text-justify">{project.desc}</p>
         <div className="flex space-x-4 justify-center py-5">
           {project.images.map((image, index) => (
-            <img key={index} className="w-8 h-2w-8" src={image} alt="HTML" />
+            <img
+              key={index}
+              style={{ width: "40px", height: "40px", objectFit: "contain" }}
+              src={image}
+              alt="HTML"
+            />
           ))}
         </div>
         <div className="flex space-x-8 justify-center">

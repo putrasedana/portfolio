@@ -13,6 +13,8 @@ const Body = () => {
     (project) => project.stack === "Back-end"
   );
 
+  const phpProjects = projects.filter((project) => project.stack === "PHP");
+
   return (
     <main>
       <Showcase />
@@ -27,6 +29,7 @@ const Body = () => {
         </h2>
         <Projects projects={frontendProjects} title="Front-end" />
         <Projects projects={backendProjects} title="Back-end" />
+        <Projects projects={phpProjects} title="PHP & MySQL" />
       </>
     </main>
   );

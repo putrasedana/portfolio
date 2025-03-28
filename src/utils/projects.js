@@ -87,6 +87,38 @@ const projects = [
     ],
     stack: "Back-end",
   },
+
+  {
+    image: "food-order-website.png",
+    title: "Food Order Website",
+    desc: "The Food Order Website is a web-based application for online food ordering and customer feedback management. Built with PHP and MySQL, it features a dynamic menu, order processing, and an admin panel for managing categories, orders, and feedback. The frontend uses Bootstrap for responsiveness.",
+    images: [
+      "https://www.php.net/images/logos/new-php-logo.png",
+      "https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png",
+      "https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg",
+    ],
+    links: [
+      "https://github.com/putrasedana/restaurant-website-php",
+      "http://nice-restaurant.great-site.net/",
+    ],
+    stack: "PHP",
+  },
+
+  {
+    image: "food-order-website.png",
+    title: "Food Order Website",
+    desc: "The Food Order Website is a web-based application for online food ordering and customer feedback management. Built with PHP and MySQL, it features a dynamic menu, order processing, and an admin panel for managing categories, orders, and feedback. The frontend uses Bootstrap for responsiveness. ===> username & password: admin",
+    images: [
+      "https://www.php.net/images/logos/new-php-logo.png",
+      "https://upload.wikimedia.org/wikipedia/id/a/a9/MySQL.png",
+      "https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg",
+    ],
+    links: [
+      "https://github.com/putrasedana/restaurant-website-php",
+      "http://nice-restaurant.great-site.net/",
+    ],
+    stack: "PHP",
+  },
 ];
 
 export default projects;
